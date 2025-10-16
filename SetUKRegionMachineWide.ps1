@@ -14,7 +14,7 @@ $regionalsettingsURL = "https://raw.githubusercontent.com/Textbookdnb/PublicScri
 $RegionalSettings = "C:\Windows\GBRegion.xml"
 
 #Install The UK Language Pack (en-GB)
-#Install-language en-gb
+Install-language en-gb
 
 #Set Regional Location
 Set-WinHomeLocation -GeoId 242
@@ -36,3 +36,4 @@ Set-Culture -CultureInfo en-GB
 Set-TimeZone -Name "GMT Standard Time"
 
 # restart virtual machine to apply regional settings to current user. You could also do a logoff and login.
+
